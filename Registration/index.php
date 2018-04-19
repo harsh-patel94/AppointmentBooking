@@ -1,4 +1,3 @@
 <?php
-echo"WELCOME";
-echo"SUCCESS!";
+echo"OKAY, LOGGED IN!";
 ?>
