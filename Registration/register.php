@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Appointment System</title>
+  <title>Appointment system</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
   <form method="post" action="register.php">
   	<?php include('errors.php'); ?>
   	<div class="input-group">
-  	  <label>Username</label>
+  	  <label>Full name</label>
   	  <input type="text" name="username" value="<?php echo $username; ?>">
   	</div>
   	<div class="input-group">
@@ -28,6 +28,13 @@
   	  <label>Confirm password</label>
   	  <input type="password" name="password_2">
   	</div>
+  	<div class="input-group">
+      <label>Phone number</label>
+      <input type="number" name="phonenumber">
+    </div>
+    <div class="input-group">
+      <label>Residential Address</label>
+      <input type="text" name="address">
   	<div class="input-group">
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
